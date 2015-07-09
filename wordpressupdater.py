@@ -1,7 +1,7 @@
 import datetime, xmlrpclib, sys
 wp_url = "https://omgtrent2sd.wordpress.com/xmlrpc.php"
-wp_username = "qgeddes9@gmail.com"
-wp_password = "superman2"
+wp_username = "email@gmail.com"
+wp_password = "secret"
 wp_blogid = ""
 
 status_draft = 0
