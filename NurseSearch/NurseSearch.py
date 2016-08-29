@@ -9,7 +9,7 @@ import csv
 #VARIABLES--
 LastNameStart="ZU"
 
-csvpath=r"C:\Users\qgeddes\Documents\Python Scripts\lexisnexis\ZU_Nurses_FirstLicense.csv"
+csvpath=r"C:\Path\To\ZU_Nurses_FirstLicense.csv"
 #VARIABLES--
 
 url=r"https://www.ark.org/arsbn/statuswatch/index.php/nurse/search/sort/name/direction/asc/start/"
