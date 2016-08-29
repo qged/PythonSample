@@ -69,6 +69,8 @@ for Nurse in MatchingNurses:
     #the first 11 rows correspond to the first license only, in case there are multiple
     LicTable=tree.xpath('//div[@class="license_table box form"]/table/tr')[0:11]
     
+    #the first row of the table indicates License Status
+    #the second column of this row contains the data and its text is pulled
     LicStatus=LicTable[0].getchildren()[1].text_content()
     
     LicType  =LicTable[1].getchildren()[1].text_content()
