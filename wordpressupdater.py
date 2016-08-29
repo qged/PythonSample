@@ -15,7 +15,7 @@ ttime=datetime.datetime.strptime("2015-07-27 00:01", "%Y-%m-%d %H:%M")
 days=(ttime-now).days
 
 title = "{0} Days until arrival".format(days+1)
-content = "OMG OMG OMG OMG OMG OMG OMG"
+content = "!!!"
 
 
 date_created = xmlrpclib.DateTime(now)
